@@ -7,7 +7,7 @@ public class Camera : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        objectToFollow = FindObjectOfType<Player>().transform;
+        objectToFollow = FindFirstObjectByType<Player>().transform;
     }
 
     // Update is called once per frame
